@@ -46,8 +46,8 @@
                             Path
                         </h3>
 
-                        <button type="button" class="btn btn-custom px-5">Order Now!</button>
-                        <button type="button" class="btn btn-secondary">Free Preview</button>
+                        <a type="button" class="btn btn-custom px-5">Order Now!</a>
+                        <a href="#getfreepreview" type="button" class="btn btn-secondary">Free Preview</a>
 
                     </div>
 
@@ -527,21 +527,7 @@
         <a href="#top" id="back-to-top" class="btn btn-primary back-to-top-btn rounded-circle">
             <i class="bi bi-arrow-up-short"></i> </a>
     </footer>
-    <script>
-        window.addEventListener('scroll', function () {
-            var backToTopBtn = document.getElementById('back-to-top');
-            if (window.scrollY > 300) {
-                backToTopBtn.style.display = 'block';
-            } else {
-                backToTopBtn.style.display = 'none';
-            }
-        });
 
-        document.getElementById('back-to-top').addEventListener('click', function (e) {
-            e.preventDefault();
-            document.getElementById('hero').scrollIntoView({ behavior: 'smooth' });
-        });
-    </script>
 
 </body>
 
